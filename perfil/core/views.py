@@ -11,7 +11,7 @@ from perfil.core.models import STATES, Candidate, age
 
 
 def home(request):
-    return JsonResponse({'data':"API do Perfil Politico está online."}, safe=False)
+    return JsonResponse({"message": "API do Perfil Politico está online."})
 
 
 class CandidateListResource(DjangoResource):

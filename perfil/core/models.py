@@ -2,7 +2,8 @@ from datetime import date
 from decimal import Decimal
 
 from django.db import models
-from django.contrib.postgres.fields import ArrayField, JSONField
+from django.db.models import JSONField
+from django.contrib.postgres.fields import ArrayField
 
 from perfil.core.managers import CampaignManager
 

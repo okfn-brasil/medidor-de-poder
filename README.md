@@ -46,7 +46,7 @@ The website and [API](#api) will be available at
 [`localhost:8000`](http://localhost:8000) and the Jupyter at
 [`localhost:8888`](http://localhost:8888).
 
-### Bringing data in your database
+### Bringing data into your database
 
 Your local `data/` directory is mapped, inside the container, to `/mnt/data`.
 Each command uses a CSV (compressed as `.xz` or not) from a public and
